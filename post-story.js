@@ -42,8 +42,8 @@ async function graph(method, url, params = {}) {
   // Each slot posts the next story in the queue that has not gone out yet, so a missed day
   // never skips a review or shifts the order. queue.json dates are only a guide.
   if (posted.some((p) => p.date === today && p.status === 'published')) return log(`Already posted for ${today}.`);
-  const done = new Set(posted.filter((p) => p.status === 'published').map((p) => p.n));
-  const entry = queue.find((e) => !done.has(e.n));
+  const done = new Set(posted.filter((p) => p.status === 'published').map((p) => p.id || p.n));
+  const entry = queue.find((e) => !done.has(e.id || e.n));
   if (!entry) return log('Queue is empty. Nothing left to post.');
 
   // Two cron triggers cover both UK clock settings. The one that fires before 16:00 London waits;
@@ -73,6 +73,6 @@ async function graph(method, url, params = {}) {
 
   const pub = await graph('POST', `${GRAPH}/${IG_USER}/media_publish`, { creation_id: container.id });
   log('Published story', pub.id);
-  posted.push({ date: today, n: entry.n, name: entry.name, style: entry.style, mediaId: pub.id, status: 'published', at: new Date().toISOString() });
+  posted.push({ date: today, n: entry.n, id: entry.id, name: entry.name, style: entry.style, mediaId: pub.id, status: 'published', at: new Date().toISOString() });
   fs.writeFileSync(postedPath, JSON.stringify(posted, null, 2));
 })().catch((e) => { console.error('FAILED:', e.message); process.exit(1); });
