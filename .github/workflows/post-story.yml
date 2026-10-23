@@ -1,0 +1,60 @@
+name: Post proof story
+
+# Tue, Thu, Sun. Two triggers so it still lands near 16:00 UK time either side of the clock change:
+# 15:50 UTC covers BST, 16:50 UTC covers GMT. The script waits until 16:00 London, posts once, and
+# ignores the trigger that doesn't match.
+on:
+  schedule:
+    - cron: '50 15 * * 0,2,4'
+    - cron: '50 16 * * 0,2,4'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (builds the story but does not publish)'
+        type: boolean
+        default: true
+      date:
+        description: 'Pretend it is this date (YYYY-MM-DD). Leave blank for today.'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post-story
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Post story
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
+          DISPATCH_DRY_RUN: ${{ inputs.dry_run }}
+          DISPATCH_DATE: ${{ inputs.date }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          FLAGS=""
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            [ "$DISPATCH_DRY_RUN" = "true" ] && FLAGS="$FLAGS --dry-run"
+            [ -n "$DISPATCH_DATE" ] && FLAGS="$FLAGS --date $DISPATCH_DATE"
+            FLAGS="$FLAGS --now"
+          fi
+          node post-story.js $FLAGS
+      - name: Save posted log
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain posted.json 2>/dev/null)" ]; then
+            git config user.name "IGNYT story poster"
+            git config user.email "actions@users.noreply.github.com"
+            git add posted.json
+            git commit -m "Log posted story"
+            git push
+          fi
