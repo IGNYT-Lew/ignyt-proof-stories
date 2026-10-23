@@ -1,0 +1,8 @@
+samples/
+assets/
+render.js
+build-queue.js
+make-sheet.js
+*.html
+node_modules/
+.DS_Store

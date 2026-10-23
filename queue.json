@@ -1,0 +1,897 @@
+{
+  "built": "2026-10-23",
+  "reviewCount": 109,
+  "slots": "Tue, Thu, Sun at 16:00 Europe/London",
+  "queue": [
+    {
+      "n": 1,
+      "date": "2026-10-27",
+      "style": "C",
+      "quoteId": 70,
+      "name": "Fay B.",
+      "quote": "It’s great to have a local small business that genuinely makes you feel supported and comfortable on your fitness journey.",
+      "tag": "welcome",
+      "image": "stories/001-C.png"
+    },
+    {
+      "n": 2,
+      "date": "2026-10-29",
+      "style": "E",
+      "quoteId": 69,
+      "name": "Steven D.",
+      "quote": "Ordinary gyms can feel a bit soulless, but IGNYT has a real sense of community.",
+      "tag": "community",
+      "image": "stories/002-E.png"
+    },
+    {
+      "n": 3,
+      "date": "2026-11-01",
+      "style": "D",
+      "quoteId": 68,
+      "name": "Steve L.",
+      "quote": "The coaching team is outstanding, providing constant support, guidance, and encouragement.",
+      "tag": "coaches",
+      "image": "stories/003-D.png"
+    },
+    {
+      "n": 4,
+      "date": "2026-11-03",
+      "style": "C",
+      "quoteId": 67,
+      "name": "Ivona W.",
+      "quote": "Outstanding experience, honestly I recommend it to everyone at different level of fitness.",
+      "tag": "results",
+      "image": "stories/004-C.png"
+    },
+    {
+      "n": 5,
+      "date": "2026-11-05",
+      "style": "E",
+      "quoteId": 6,
+      "name": "Paul F.",
+      "quote": "It’s very inclusive and makes going to the gym a fun activity rather than a chore.",
+      "tag": "fun",
+      "image": "stories/005-E.png"
+    },
+    {
+      "n": 6,
+      "date": "2026-11-08",
+      "style": "D",
+      "quoteId": 66,
+      "name": "Gary F.",
+      "quote": "Lewis and Tahnee are always friendly and helpful, creating a welcoming atmosphere for everyone.",
+      "tag": "welcome",
+      "image": "stories/006-D.png"
+    },
+    {
+      "n": 7,
+      "date": "2026-11-10",
+      "style": "C",
+      "quoteId": 26,
+      "name": "Leighann J.",
+      "quote": "Great gym if you want results in a positive, encouraging environment.",
+      "tag": "results",
+      "image": "stories/007-C.png"
+    },
+    {
+      "n": 8,
+      "date": "2026-11-12",
+      "style": "E",
+      "quoteId": 43,
+      "name": "Jenni D.",
+      "quote": "Absolutely brilliant classes.",
+      "tag": "fun",
+      "image": "stories/008-E.png"
+    },
+    {
+      "n": 9,
+      "date": "2026-11-15",
+      "style": "D",
+      "quoteId": 77,
+      "name": "Robert R.",
+      "quote": "The most proactive gym experience in the area",
+      "tag": "better",
+      "image": "stories/009-D.png"
+    },
+    {
+      "n": 10,
+      "date": "2026-11-17",
+      "style": "C",
+      "quoteId": 76,
+      "name": "Laura H.",
+      "quote": "Tahnee and Lewis are great coaches, really supportive every step of the way in both fitness and nutrition.",
+      "tag": "coaches",
+      "image": "stories/010-C.png"
+    },
+    {
+      "n": 11,
+      "date": "2026-11-19",
+      "style": "E",
+      "quoteId": 81,
+      "name": "Niamh T.",
+      "quote": "IGNYT has the most fun and supportive team and community!",
+      "tag": "community",
+      "image": "stories/011-E.png"
+    },
+    {
+      "n": 12,
+      "date": "2026-11-22",
+      "style": "D",
+      "quoteId": 74,
+      "name": "Helen W.",
+      "quote": "I can honestly say after joining IGNYT Gym over 6 months ago that it has completely exceeded my expectations!",
+      "tag": "better",
+      "image": "stories/012-D.png"
+    },
+    {
+      "n": 13,
+      "date": "2026-11-24",
+      "style": "C",
+      "quoteId": 34,
+      "name": "Edwina D.",
+      "quote": "The programming is spot on, with clear personalised goals around strength, fitness, and body composition.",
+      "tag": "coaches",
+      "image": "stories/013-C.png"
+    },
+    {
+      "n": 14,
+      "date": "2026-11-26",
+      "style": "E",
+      "quoteId": 8,
+      "name": "Jo M.",
+      "quote": "There's such a great vibe, everyone is super friendly and encouraging.",
+      "tag": "community",
+      "image": "stories/014-E.png"
+    },
+    {
+      "n": 15,
+      "date": "2026-11-29",
+      "style": "D",
+      "quoteId": 15,
+      "name": "Google review",
+      "quote": "What makes IGNYT Fitness special is the atmosphere. It's unlike any gym I've experienced before.",
+      "tag": "better",
+      "image": "stories/015-D.png"
+    },
+    {
+      "n": 16,
+      "date": "2026-12-01",
+      "style": "C",
+      "quoteId": 22,
+      "name": "Sam A.",
+      "quote": "There's zero judgement, just support of your plan or goals",
+      "tag": "welcome",
+      "image": "stories/016-C.png"
+    },
+    {
+      "n": 17,
+      "date": "2026-12-03",
+      "style": "E",
+      "quoteId": 57,
+      "name": "Tilly P.",
+      "quote": "Tahnee and Lewis have helped me hit goals I never thought possible.",
+      "tag": "results",
+      "image": "stories/017-E.png"
+    },
+    {
+      "n": 18,
+      "date": "2026-12-06",
+      "style": "D",
+      "quoteId": 78,
+      "name": "William B.",
+      "quote": "Amazing atmosphere with extremely knowledgeable instructors. Everything you want in a gym and more",
+      "tag": "better",
+      "image": "stories/018-D.png"
+    },
+    {
+      "n": 19,
+      "date": "2026-12-08",
+      "style": "C",
+      "quoteId": 29,
+      "name": "Christina C.",
+      "quote": "I walk out of the gym feeling so much better than when I first walked in",
+      "tag": "habit",
+      "image": "stories/019-C.png"
+    },
+    {
+      "n": 20,
+      "date": "2026-12-10",
+      "style": "E",
+      "quoteId": 27,
+      "name": "Natalie D.",
+      "quote": "This is a gym for all ages and levels - you don’t need to own Lycra to attend.",
+      "tag": "welcome",
+      "image": "stories/020-E.png"
+    },
+    {
+      "n": 21,
+      "date": "2026-12-13",
+      "style": "D",
+      "quoteId": 17,
+      "name": "Craig R.",
+      "quote": "This gym is amazing, small group sessions, not intimidating at all, amazing personal trainers who guide you every step of the way.",
+      "tag": "coaches",
+      "image": "stories/021-D.png"
+    },
+    {
+      "n": 22,
+      "date": "2026-12-15",
+      "style": "C",
+      "quoteId": 53,
+      "name": "Simon W.",
+      "quote": "That is all down to the environment and atmosphere Lewis and Tahnee have created.",
+      "tag": "community",
+      "image": "stories/022-C.png"
+    },
+    {
+      "n": 23,
+      "date": "2026-12-17",
+      "style": "E",
+      "quoteId": 3,
+      "name": "Danielle C.",
+      "quote": "All of the members are super friendly too, which makes it a very comfortable and encouraging environment, with zero judgement or any need to feel self-conscious.",
+      "tag": "welcome",
+      "image": "stories/023-E.png"
+    },
+    {
+      "n": 24,
+      "date": "2026-12-20",
+      "style": "D",
+      "quoteId": 9,
+      "name": "Damian D.",
+      "quote": "I've finally found a gym that just feels right.",
+      "tag": "better",
+      "image": "stories/024-D.png"
+    },
+    {
+      "n": 25,
+      "date": "2026-12-22",
+      "style": "C",
+      "quoteId": 85,
+      "name": "Brian B.",
+      "quote": "Great gym and with small groups it's more personal.",
+      "tag": "coaches",
+      "image": "stories/025-C.png"
+    },
+    {
+      "n": 26,
+      "date": "2026-12-24",
+      "style": "E",
+      "quoteId": 87,
+      "name": "Beth H.",
+      "quote": "IGNYT fitness is a place where anyone can train.",
+      "tag": "welcome",
+      "image": "stories/026-E.png"
+    },
+    {
+      "n": 27,
+      "date": "2026-12-27",
+      "style": "D",
+      "quoteId": 25,
+      "name": "Matthew W.",
+      "quote": "it’s the most consistent I have been with the gym my entire life.",
+      "tag": "habit",
+      "image": "stories/027-D.png"
+    },
+    {
+      "n": 28,
+      "date": "2026-12-29",
+      "style": "C",
+      "quoteId": 61,
+      "name": "Sofia B.",
+      "quote": "they push you when they know you can",
+      "tag": "coaches",
+      "image": "stories/028-C.png"
+    },
+    {
+      "n": 29,
+      "date": "2026-12-31",
+      "style": "E",
+      "quoteId": 65,
+      "name": "Grant D.",
+      "quote": "This gym is not just for hardcore professionals - it's for everyone!",
+      "tag": "welcome",
+      "image": "stories/029-E.png"
+    },
+    {
+      "n": 30,
+      "date": "2027-01-03",
+      "style": "D",
+      "quoteId": 82,
+      "name": "Toi-mia G.",
+      "quote": "A wonderful uplifting and supportive community.",
+      "tag": "community",
+      "image": "stories/030-D.png"
+    },
+    {
+      "n": 31,
+      "date": "2027-01-05",
+      "style": "C",
+      "quoteId": 72,
+      "name": "Jacinta L.",
+      "quote": "The coaches are amazing and so encouraging.",
+      "tag": "coaches",
+      "image": "stories/031-C.png"
+    },
+    {
+      "n": 32,
+      "date": "2027-01-07",
+      "style": "E",
+      "quoteId": 64,
+      "name": "Maisie G.",
+      "quote": "The classes allow you to work at your own level whilst working alongside lovely people to keep you motivated and have a great time.",
+      "tag": "welcome",
+      "image": "stories/032-E.png"
+    },
+    {
+      "n": 33,
+      "date": "2027-01-10",
+      "style": "D",
+      "quoteId": 84,
+      "name": "Paul A.",
+      "quote": "Ignyt is so much more than a traditional gym, thanks to the high end equipment, but more importantly the detailed programmes, diet plans, support and atmosphere created by Tahnee and Lewis!",
+      "tag": "better",
+      "image": "stories/033-D.png"
+    },
+    {
+      "n": 34,
+      "date": "2027-01-12",
+      "style": "C",
+      "quoteId": 48,
+      "name": "Samantha C.",
+      "quote": "Incredible community, incredible people.",
+      "tag": "community",
+      "image": "stories/034-C.png"
+    },
+    {
+      "n": 35,
+      "date": "2027-01-14",
+      "style": "E",
+      "quoteId": 79,
+      "name": "Anthony B.",
+      "quote": "The coaches are amazing—they push you to do your best but always in a positive way.",
+      "tag": "coaches",
+      "image": "stories/035-E.png"
+    },
+    {
+      "n": 36,
+      "date": "2027-01-17",
+      "style": "D",
+      "quoteId": 7,
+      "name": "Jonathan M.",
+      "quote": "from the moment I made contact to now I have been made to feel welcome, comfortable and supported.",
+      "tag": "welcome",
+      "image": "stories/036-D.png"
+    },
+    {
+      "n": 37,
+      "date": "2027-01-19",
+      "style": "C",
+      "quoteId": 12,
+      "name": "Ashley B.",
+      "quote": "The vibe is awesome, with everyone encouraging and supporting each other.",
+      "tag": "community",
+      "image": "stories/037-C.png"
+    },
+    {
+      "n": 38,
+      "date": "2027-01-21",
+      "style": "E",
+      "quoteId": 89,
+      "name": "Sam R.",
+      "quote": "Lewis and Tahnee are pros at what they do and know their stuff more than anyone I’ve ever met!",
+      "tag": "coaches",
+      "image": "stories/038-E.png"
+    },
+    {
+      "n": 39,
+      "date": "2027-01-24",
+      "style": "D",
+      "quoteId": 2,
+      "name": "Tracy C.",
+      "quote": "I’m six weeks in and look forward to every session. It’s a huge part of my life now and I’ve never said that before about any gym.",
+      "tag": "habit",
+      "image": "stories/039-D.png"
+    },
+    {
+      "n": 40,
+      "date": "2027-01-26",
+      "style": "C",
+      "quoteId": 60,
+      "name": "Leanne H.",
+      "quote": "What I love about IGNYT is that you’re not just a number",
+      "tag": "better",
+      "image": "stories/040-C.png"
+    },
+    {
+      "n": 41,
+      "date": "2027-01-28",
+      "style": "E",
+      "quoteId": 36,
+      "name": "Heidi M.",
+      "quote": "The people you workout with are so welcoming and encouraging it's like a proper community!",
+      "tag": "community",
+      "image": "stories/041-E.png"
+    },
+    {
+      "n": 42,
+      "date": "2027-01-31",
+      "style": "D",
+      "quoteId": 40,
+      "name": "Alexandra P.",
+      "quote": "I’m feeling the best I have in ages and we get to have a laugh whilst working hard and achieving goals!",
+      "tag": "fun",
+      "image": "stories/042-D.png"
+    },
+    {
+      "n": 43,
+      "date": "2027-02-02",
+      "style": "C",
+      "quoteId": 21,
+      "name": "Rebecca C.",
+      "quote": "I travel 45 minutes to an hour to train here, and it is 100% worth it every single time.",
+      "tag": "better",
+      "image": "stories/043-C.png"
+    },
+    {
+      "n": 44,
+      "date": "2027-02-04",
+      "style": "E",
+      "quoteId": 47,
+      "name": "Sarah M.",
+      "quote": "They have also built a really lovely community at IGNYT, everyone is so supportive and kind to each other",
+      "tag": "community",
+      "image": "stories/044-E.png"
+    },
+    {
+      "n": 45,
+      "date": "2027-02-07",
+      "style": "D",
+      "quoteId": 59,
+      "name": "Dani H.",
+      "quote": "I now know how to use all their equipment with confidence",
+      "tag": "results",
+      "image": "stories/045-D.png"
+    },
+    {
+      "n": 46,
+      "date": "2027-02-09",
+      "style": "C",
+      "quoteId": 71,
+      "name": "Ian B.",
+      "quote": "Superb place - mindset is elite from all involved",
+      "tag": "better",
+      "image": "stories/046-C.png"
+    },
+    {
+      "n": 47,
+      "date": "2027-02-11",
+      "style": "E",
+      "quoteId": 1,
+      "name": "Helen C.",
+      "quote": "Everyone is supportive and helps you stay motivated and work towards your goals.",
+      "tag": "community",
+      "image": "stories/047-E.png"
+    },
+    {
+      "n": 48,
+      "date": "2027-02-14",
+      "style": "D",
+      "quoteId": 37,
+      "name": "Caitlin L.",
+      "quote": "If you’re looking for a great gym that delivers real results with a great vibe, this is the place!",
+      "tag": "results",
+      "image": "stories/048-D.png"
+    },
+    {
+      "n": 49,
+      "date": "2027-02-16",
+      "style": "C",
+      "quoteId": 28,
+      "name": "Mahesh V.",
+      "quote": "what sets IGNYT apart is the kindness and care of the trainers, along with the strong sense of community.",
+      "tag": "coaches",
+      "image": "stories/049-C.png"
+    },
+    {
+      "n": 50,
+      "date": "2027-02-18",
+      "style": "E",
+      "quoteId": 54,
+      "name": "Michael W.",
+      "quote": "6 months ago I would have laughed at going to the gym, now I can’t imagine not going.",
+      "tag": "habit",
+      "image": "stories/050-E.png"
+    },
+    {
+      "n": 51,
+      "date": "2027-02-21",
+      "style": "D",
+      "quoteId": 41,
+      "name": "Copper C.",
+      "quote": "It’s a commitment and investment that’s worth every penny and definitely working.",
+      "tag": "results",
+      "image": "stories/051-D.png"
+    },
+    {
+      "n": 52,
+      "date": "2027-02-23",
+      "style": "C",
+      "quoteId": 62,
+      "name": "Mark D.",
+      "quote": "Great equipment, a brilliant training style and new ideas to take home with us.",
+      "tag": "better",
+      "image": "stories/052-C.png"
+    },
+    {
+      "n": 53,
+      "date": "2027-02-25",
+      "style": "E",
+      "quoteId": 16,
+      "name": "Jeminy J.",
+      "quote": "From the moment you walk through the door, the entire gym team makes you feel welcome, supported, and energised.",
+      "tag": "welcome",
+      "image": "stories/053-E.png"
+    },
+    {
+      "n": 54,
+      "date": "2027-02-28",
+      "style": "D",
+      "quoteId": 30,
+      "name": "Marianne",
+      "quote": "The coaches care about the type of community they are building and are always finding ways to make things better. I’ve found my people",
+      "tag": "community",
+      "image": "stories/054-D.png"
+    },
+    {
+      "n": 55,
+      "date": "2027-03-02",
+      "style": "C",
+      "quoteId": 5,
+      "name": "Angela C.",
+      "quote": "I have used most gyms in Haverhill but after joining IGNYT fitness I can say it’s the Best around.",
+      "tag": "better",
+      "image": "stories/055-C.png"
+    },
+    {
+      "n": 56,
+      "date": "2027-03-04",
+      "style": "E",
+      "quoteId": 56,
+      "name": "Leanne M.",
+      "quote": "I absolutely love it and I’d be lost without IGNYT In my life and I truly believe that.",
+      "tag": "habit",
+      "image": "stories/056-E.png"
+    },
+    {
+      "n": 57,
+      "date": "2027-03-07",
+      "style": "D",
+      "quoteId": 13,
+      "name": "Stacey M.",
+      "quote": "I was worried the gym would feel intimidating, but it’s actually such a friendly and welcoming environment.",
+      "tag": "welcome",
+      "image": "stories/057-D.png"
+    },
+    {
+      "n": 58,
+      "date": "2027-03-09",
+      "style": "C",
+      "quoteId": 23,
+      "name": "Lee S.",
+      "quote": "Ignyt isn’t just a gym. It’s a community.",
+      "tag": "community",
+      "image": "stories/058-C.png"
+    },
+    {
+      "n": 59,
+      "date": "2027-03-11",
+      "style": "E",
+      "quoteId": 88,
+      "name": "Jack B.",
+      "quote": "If you’re looking for a super comfortable environment, training flexibility, structured routine and results then I couldn’t recommend IGNYT more…",
+      "tag": "better",
+      "image": "stories/059-E.png"
+    },
+    {
+      "n": 60,
+      "date": "2027-03-14",
+      "style": "D",
+      "quoteId": 49,
+      "name": "Sarah P.",
+      "quote": "There’s a really friendly atmosphere and a warm and supportive community, all ages and stages, shapes and sizes.",
+      "tag": "welcome",
+      "image": "stories/060-D.png"
+    },
+    {
+      "n": 61,
+      "date": "2027-03-16",
+      "style": "C",
+      "quoteId": 33,
+      "name": "Alexia L.",
+      "quote": "I love being part of Ignyt, the support and community is just amazing.",
+      "tag": "community",
+      "image": "stories/061-C.png"
+    },
+    {
+      "n": 62,
+      "date": "2027-03-18",
+      "style": "E",
+      "quoteId": 52,
+      "name": "Annette H.",
+      "quote": "It was the best decision I’ve made and wish I had made it sooner!",
+      "tag": "results",
+      "image": "stories/062-E.png"
+    },
+    {
+      "n": 63,
+      "date": "2027-03-21",
+      "style": "D",
+      "quoteId": 86,
+      "name": "Claire L.",
+      "quote": "Tahnee and Lewis certainly know their stuff, sessions are varied and cater for all levels of fitness.",
+      "tag": "coaches",
+      "image": "stories/063-D.png"
+    },
+    {
+      "n": 64,
+      "date": "2027-03-23",
+      "style": "C",
+      "quoteId": 55,
+      "name": "Natasha B.",
+      "quote": "Joining IGNYT feels like you’ve joined a community.",
+      "tag": "community",
+      "image": "stories/064-C.png"
+    },
+    {
+      "n": 65,
+      "date": "2027-03-25",
+      "style": "E",
+      "quoteId": 45,
+      "name": "Jackie S.",
+      "quote": "I actually get FOMO on the days I’m not there.",
+      "tag": "habit",
+      "image": "stories/065-E.png"
+    },
+    {
+      "n": 66,
+      "date": "2027-03-28",
+      "style": "D",
+      "quoteId": 58,
+      "name": "Dominic L.",
+      "quote": "They both encourage you to push yourself further without making you feel bad when you take a step back.",
+      "tag": "coaches",
+      "image": "stories/066-D.png"
+    },
+    {
+      "n": 67,
+      "date": "2027-03-30",
+      "style": "C",
+      "quoteId": 75,
+      "name": "H. Sullivan",
+      "quote": "The IGNYT Fitness team have created a great gym community which is a joy to be a part of.",
+      "tag": "community",
+      "image": "stories/067-C.png"
+    },
+    {
+      "n": 68,
+      "date": "2027-04-01",
+      "style": "E",
+      "quoteId": 80,
+      "name": "Marina A.",
+      "quote": "The HYROX classes are definitely my favorite they're challenging, fun, and super motivating!",
+      "tag": "fun",
+      "image": "stories/068-E.png"
+    },
+    {
+      "n": 69,
+      "date": "2027-04-04",
+      "style": "D",
+      "quoteId": 19,
+      "name": "Zoe C.",
+      "quote": "Tahnee and Lewis show so much encouragement and a real passion for your personal growth, physically, nutritionally and mentally.",
+      "tag": "coaches",
+      "image": "stories/069-D.png"
+    },
+    {
+      "n": 70,
+      "date": "2027-04-06",
+      "style": "C",
+      "quoteId": 44,
+      "name": "Gemma G.",
+      "quote": "Everyone cheers each other on, no matter where you are in your journey.",
+      "tag": "community",
+      "image": "stories/070-C.png"
+    },
+    {
+      "n": 71,
+      "date": "2027-04-08",
+      "style": "E",
+      "quoteId": 35,
+      "name": "Jodie H.",
+      "quote": "IGNYT has literally changed my life!!!",
+      "tag": "results",
+      "image": "stories/071-E.png"
+    },
+    {
+      "n": 72,
+      "date": "2027-04-11",
+      "style": "D",
+      "quoteId": 14,
+      "name": "Lorraine W.",
+      "quote": "Tahnee and Lewis were very encouraging from the get go, and made me feel very welcome.",
+      "tag": "coaches",
+      "image": "stories/072-D.png"
+    },
+    {
+      "n": 73,
+      "date": "2027-04-13",
+      "style": "C",
+      "quoteId": 51,
+      "name": "Aimee H.",
+      "quote": "The community is lovely and I wouldn’t be looking or feeling how I do now without their support.",
+      "tag": "community",
+      "image": "stories/073-C.png"
+    },
+    {
+      "n": 74,
+      "date": "2027-04-15",
+      "style": "E",
+      "quoteId": 24,
+      "name": "Charlotte S.",
+      "quote": "If you want good energy, great people, and a fun vibe — this is the place!",
+      "tag": "fun",
+      "image": "stories/074-E.png"
+    },
+    {
+      "n": 75,
+      "date": "2027-04-18",
+      "style": "D",
+      "quoteId": 46,
+      "name": "Phillip T.",
+      "quote": "the welcoming atmosphere and the ability to tailor nutrition plans around my lifestyle has made this the easiest and most enjoyable fitness journey.",
+      "tag": "coaches",
+      "image": "stories/075-D.png"
+    },
+    {
+      "n": 76,
+      "date": "2027-04-20",
+      "style": "C",
+      "quoteId": 10,
+      "name": "Neil G.",
+      "quote": "The 6 week plan gets you hooked and the people keep you going for more!",
+      "tag": "habit",
+      "image": "stories/076-C.png"
+    },
+    {
+      "n": 77,
+      "date": "2027-04-22",
+      "style": "E",
+      "quoteId": 39,
+      "name": "Ellen D.",
+      "quote": "I’ve had many a gym membership over the years, but this one beats them all hands down.",
+      "tag": "better",
+      "image": "stories/077-E.png"
+    },
+    {
+      "n": 78,
+      "date": "2027-04-25",
+      "style": "D",
+      "quoteId": 32,
+      "name": "Peter S.",
+      "quote": "Great on teaching you technique and motivating you to achieve your personalised goals.",
+      "tag": "coaches",
+      "image": "stories/078-D.png"
+    },
+    {
+      "n": 79,
+      "date": "2027-04-27",
+      "style": "C",
+      "quoteId": 38,
+      "name": "Olivia H.",
+      "quote": "I’ve rediscovered my love for fitness.",
+      "tag": "habit",
+      "image": "stories/079-C.png"
+    },
+    {
+      "n": 80,
+      "date": "2027-04-29",
+      "style": "E",
+      "quoteId": 18,
+      "name": "Laura S.",
+      "quote": "I feel like part of a family, encouraged by all the members as well as the coaches.",
+      "tag": "community",
+      "image": "stories/080-E.png"
+    },
+    {
+      "n": 81,
+      "date": "2027-05-02",
+      "style": "D",
+      "quoteId": 63,
+      "name": "Emily A.",
+      "quote": "Lewis & Tahnee are the most lovely people you could ever meet.",
+      "tag": "coaches",
+      "image": "stories/081-D.png"
+    },
+    {
+      "n": 82,
+      "date": "2027-05-04",
+      "style": "C",
+      "quoteId": 20,
+      "name": "Fiona C.",
+      "quote": "It’s the first time in years that I’ve genuinely enjoyed going to the gym and felt motivated to stay fit and strong.",
+      "tag": "habit",
+      "image": "stories/082-C.png"
+    },
+    {
+      "n": 83,
+      "date": "2027-05-06",
+      "style": "E",
+      "quoteId": 42,
+      "name": "Natalie F.",
+      "quote": "there’s a strange joy in suffering together.",
+      "tag": "fun",
+      "image": "stories/083-E.png"
+    },
+    {
+      "n": 84,
+      "date": "2027-05-09",
+      "style": "D",
+      "quoteId": 50,
+      "name": "Hannah C.",
+      "quote": "Tahnee and Lewis are both so friendly and ready to help whenever needed.",
+      "tag": "coaches",
+      "image": "stories/084-D.png"
+    },
+    {
+      "n": 85,
+      "date": "2027-05-11",
+      "style": "C",
+      "quoteId": 31,
+      "name": "Jessica B.",
+      "quote": "I leave every session feeling stronger, happier and actually excited to tackle the rest of my day.",
+      "tag": "habit",
+      "image": "stories/085-C.png"
+    },
+    {
+      "n": 86,
+      "date": "2027-05-13",
+      "style": "E",
+      "quoteId": 4,
+      "name": "Karl A.",
+      "quote": "I feel fitter, stronger and more confident, and I’ve made changes that I know I can actually stick to.",
+      "tag": "results",
+      "image": "stories/086-E.png"
+    },
+    {
+      "n": 87,
+      "date": "2027-05-16",
+      "style": "D",
+      "quoteId": 83,
+      "name": "David T.",
+      "quote": "If Carlsberg done gyms, this would be the place.",
+      "tag": "fun",
+      "image": "stories/087-D.png"
+    },
+    {
+      "n": 88,
+      "date": "2027-05-18",
+      "style": "C",
+      "quoteId": 73,
+      "name": "Hayley J.",
+      "quote": "IGNYT is so much more than a Gym. The team are so motivating, Friendly & Supportive.",
+      "tag": "better",
+      "image": "stories/088-C.png"
+    },
+    {
+      "n": 89,
+      "date": "2027-05-20",
+      "style": "E",
+      "quoteId": 11,
+      "name": "Abi D.",
+      "quote": "I crave being in the gym, around the incredible community and family like atmosphere the gym has",
+      "tag": "community",
+      "image": "stories/089-E.png"
+    }
+  ]
+}
