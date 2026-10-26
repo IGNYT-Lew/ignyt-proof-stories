@@ -26,5 +26,14 @@
     "style": "D",
     "status": "scheduled-in-meta",
     "scheduledAt": "2026-10-26T09:19:52.824Z"
+  },
+  {
+    "date": "2026-11-01",
+    "n": 4,
+    "id": "ivona-wilde-1",
+    "name": "Ivona W.",
+    "style": "C",
+    "status": "scheduled-in-meta",
+    "scheduledAt": "2026-10-26T09:21:22.641Z"
   }
 ]
