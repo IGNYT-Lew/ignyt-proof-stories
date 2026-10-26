@@ -80,5 +80,14 @@
     "style": "D",
     "status": "scheduled-in-meta",
     "scheduledAt": "2026-10-26T09:26:23.638Z"
+  },
+  {
+    "date": "2026-11-15",
+    "n": 10,
+    "id": "natasha-bompas-1",
+    "name": "Natasha B.",
+    "style": "C",
+    "status": "scheduled-in-meta",
+    "scheduledAt": "2026-10-26T09:27:16.897Z"
   }
 ]
