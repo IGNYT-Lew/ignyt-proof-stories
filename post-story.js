@@ -41,8 +41,10 @@ async function graph(method, url, params = {}) {
 
   // Each slot posts the next story in the queue that has not gone out yet, so a missed day
   // never skips a review or shifts the order. queue.json dates are only a guide.
-  if (posted.some((p) => p.date === today && p.status === 'published')) return log(`Already posted for ${today}.`);
-  const done = new Set(posted.filter((p) => p.status === 'published').map((p) => p.id || p.n));
+  // 'scheduled-in-meta' means the story for that date is queued inside Meta Business Suite, so this job leaves it alone.
+  const covered = (p) => p.status === 'published' || p.status === 'scheduled-in-meta';
+  if (posted.some((p) => p.date === today && covered(p))) return log(`Already posted or scheduled in Meta for ${today}.`);
+  const done = new Set(posted.filter(covered).map((p) => p.id || p.n));
   const entry = queue.find((e) => !done.has(e.id || e.n));
   if (!entry) return log('Queue is empty. Nothing left to post.');
 
