@@ -1,12 +1,11 @@
 name: Post proof story
 
-# Tue, Thu, Sun. Two triggers so it still lands near 16:00 UK time either side of the clock change:
-# 15:50 UTC covers BST, 16:50 UTC covers GMT. The script waits until 16:00 London, posts once, and
-# ignores the trigger that doesn't match.
+# Tue, Thu, Sun. GitHub often starts scheduled runs late (up to hours), so the job wakes five times a day.
+# The first run at or after 16:00 UK time posts; the script then logs it and every later run that day
+# sees "already posted" and stops. A run before 15:00 or after 23:00 UK time does nothing.
 on:
   schedule:
-    - cron: '50 15 * * 0,2,4'
-    - cron: '50 16 * * 0,2,4'
+    - cron: '37 14,15,16,17,18 * * 0,2,4'
   workflow_dispatch:
     inputs:
       dry_run:

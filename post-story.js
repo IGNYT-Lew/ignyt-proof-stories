@@ -49,9 +49,11 @@ async function graph(method, url, params = {}) {
   // Two cron triggers cover both UK clock settings. The one that fires before 16:00 London waits;
   // the other finds the story already posted, or is outside the window, and stops.
   if (!NOW && !dateArg) {
-    if (now.hour > 17) return log(`Too late today (London ${now.hour}:${now.minute}). Skipping.`);
-    if (now.hour < 15) return log(`Too early (London ${now.hour}:${now.minute}). Skipping.`);
-    while (london().hour < 16) { log('Waiting for 16:00 London...'); await sleep(30000); }
+    // GitHub can start scheduled runs hours late, so a run that wakes after 16:00 still posts (until 23:00).
+    const hour = Number(process.env.FAKE_LONDON_HOUR ?? now.hour); // FAKE_LONDON_HOUR is for testing only
+    if (hour >= 23) return log(`Too late today (London ${hour}:${now.minute}). Skipping.`);
+    if (hour < 15) return log(`Too early (London ${hour}:${now.minute}). Skipping.`);
+    while (!process.env.FAKE_LONDON_HOUR && london().hour < 16) { log('Waiting for 16:00 London...'); await sleep(30000); }
   }
 
   const imageUrl = `${base}/${entry.image}`;
